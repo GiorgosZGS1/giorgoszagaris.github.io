@@ -540,7 +540,6 @@ footer .contact {
 
     .welcome-text {
         font-size: 32px;
-        
     }
 
     .wrapper .static-txt {
@@ -590,5 +589,127 @@ footer .contact {
     
     .social-media h1 {
         font-size: 20px;
+    }
+}
+
+.mobile-section {
+    display: none;
+}
+
+
+@media (max-width: 420px) {
+    .btn {
+        display: block;
+    }
+
+    .menu-btn.hide {
+        display: none;
+    }
+
+    nav .links {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        max-width: 400px;
+        background: rgb(20, 20, 20);
+        display: block;
+        padding: 140px 0;
+        text-align: center;
+        transition: all 0.3s ease;
+        z-index: 100;
+    }
+
+    nav .links.active {
+        left: 0%;
+    }
+
+    nav .links li {
+        margin-top: 85px;
+        margin-right: 90px;
+    }
+
+    .welcome-text {
+        text-align: center;
+    }
+
+    .tagcloud {
+        display: none;
+    }
+
+    .about-me {
+        flex: 1;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about-me .text {
+        flex: 1;
+        padding: 12px 18px;
+        border-right: 2px solid rgb(141, 141, 141);
+        border-bottom: 2px solid rgb(141, 141, 141);
+    }
+
+    .about-me p {
+        font-size: 18px;
+    }
+
+    .about-me h1 {
+        font-size: 30px;
+    }
+
+
+    .about-me img {
+        flex: 1;
+        width: 200px;
+        height: 280px;
+        display: block;
+        margin: 0 auto;
+        border-top-left-radius: 80px 80px;
+        border-bottom-right-radius: 80px 80px;
+    }
+
+    .mobile-section {
+        display: inline-block;
+        padding-top: 120px;
+    }
+
+    .mobile-section h1 {
+        color: rgb(141, 141, 141);
+        font-size: 30px;
+    }
+
+    .skillset {
+        padding-top: 20px;
+    }
+
+    .skillset p {
+        font-size: 18px;
+        text-align: left;
+        padding-top: 16px;
+    }
+
+    .skillset span {
+        color: rgb(0, 139, 139);
+        font-weight: bold;
+    }
+
+    .contact h1 {
+        font-size: 14px;
+    }
+
+    .contact p {
+        font-size: 14px;
+    }
+
+    .social-media a {
+        font-size: 14px;
+        display: block;
+        margin-top: 2px;
+    }
+
+    .social-media h1 {
+        font-size: 16px;
     }
 }
