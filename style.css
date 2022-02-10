@@ -12,7 +12,7 @@ html,body {
     color: #fff;
 }
 
-
+/**
 .header {
     position: absolute;
     top: 50%;
@@ -182,7 +182,7 @@ html,body {
     }
 }
 
-
+**/
 /********** END OF INTRO TEXT **********/
 
 /********** NAVIGATION BAR **********/
@@ -416,7 +416,6 @@ section {
     flex: 1;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .about-me .text {
@@ -452,9 +451,13 @@ section {
     border-bottom-right-radius: 80px 80px;
 }
 
+/********** END OF SKILLSET SECTION **********/
+
+/************** FOOTER **************/
+
 footer {
     height: 300px;
-    width: 82%;
+    width: 86%;
     margin: 220px auto;
     border-top: 1px solid rgb(141, 141, 141);
     display: flex;
@@ -490,7 +493,6 @@ footer .contact {
 
 .social-media h1 {
     font-size: 26px;
-    
 }
 
 .social-media span {
@@ -498,8 +500,8 @@ footer .contact {
     font-size: 38px;
 }
 
+/************** END OF FOOTER **************/
 
-/********** END OF SKILLSET SECTION **********/
 
 
 /********* RESPONSIVE **********/
@@ -555,5 +557,38 @@ footer .contact {
 
     .scrolldown  {
         left: -140px;
+    }
+
+    section {
+        display: block;
+        height: 960px;
+    }
+
+    .about-me {
+        width: 300px;
+    }
+
+    .about-me h1 {
+        font-size: 32px;
+    }
+
+    .about-me p {
+        font-size: 28px;
+    }
+
+    .contact h1 {
+        font-size: 18px;
+    }
+    
+    .contact p {
+        font-size: 16px;
+    }
+
+    .social-media a {
+        font-size: 18px;
+    }
+    
+    .social-media h1 {
+        font-size: 20px;
     }
 }

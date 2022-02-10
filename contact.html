@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="content">
+            <div class="logo"><a href="index.html">giorgos_zagaris</a></div>
+            <ul class="links">
+                <div class="btn close-btn">
+                    close
+                </div>
+                <li><a href="index.html">.home</a></li>
+                <li><a href="projects.html">.projects</a></li>
+                <li><a href="contact.html">.contact</a></li>
+            </ul>
+            <div class="btn menu-btn">
+                menu
+            </div>             
+        </div>
+    </nav>
+
+    <div class="contact-form">
+        <h1>Contact Me</h1>
+        <p>Feel free to contact us and we will get back to you ass soon as we can.</p>
+        <form action="mail.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" id="subject">
+            <label for="message">Message</label>
+            <textarea name="message" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

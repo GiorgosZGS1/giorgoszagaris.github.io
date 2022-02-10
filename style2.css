@@ -1,0 +1,210 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body {
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/********** NAVIGATION BAR **********/
+nav {
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    padding: 20px 0;
+    background: #000;
+}
+
+nav .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1550px;
+    margin: auto;
+    padding: 18px 0;
+}
+
+nav .logo a{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav .links {
+    display: inline-flex;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links li a {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 125px;
+    transition: all 0.3s ease;
+}
+
+.links li a:hover {
+    color: rgb(0, 139, 139);
+}
+
+.btn {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 14px;
+    display: none;
+}
+/**********  END OF NAVIGATION BAR **********/
+
+/********** CONTACT FORM **********/
+.contact-form h1 {
+    font-size: 59px;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.contact-form p {
+    color: #d2d2d2;
+}
+
+
+.contact-form {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+
+input,
+textarea,
+label {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: #969696;
+}
+
+input,
+textarea {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #828282;
+}
+
+input[type=submit] {
+    background-color: #545557;
+    padding: 15px 0;
+    color: white;
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+input[type=submit]:hover {
+    background: #FFF;
+    color: #1b1c1e;
+}
+
+input,
+textarea {
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid #ffffff;
+}
+
+a {
+    color: #828282;
+}
+
+a:hover {
+    color: #fff;
+}
+
+
+/********** END OF CONTACT FORM **********/
+
+
+
+.comingsoon h1 {
+    width:500px;
+    margin: 280px auto;
+    font-size: 50px;
+}
+
+/******** RESPONSIVE DESIGN ********/
+
+@media (max-width: 868px) { 
+    .btn {
+        display: block;
+    }
+
+    .menu-btn.hide {
+        display: none;
+    }
+
+    nav .links {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        max-width: 400px;
+        background: rgb(20, 20, 20);
+        display: block;
+        padding: 140px 0;
+        text-align: center;
+        transition: all 0.3s ease;
+        z-index: 100;
+    }
+
+    nav .links.active {
+        left: 0%;
+    }
+
+    nav .links li {
+        margin-top: 85px;
+        margin-right: 90px;
+    }
+
+    .contact-form h1 {
+        font-size: 42px;
+    }
+
+    .comingsoon h1 {
+        font-size: 42px;
+    }
+
+    .contact-form p {
+        font-size: 16px;
+    }
+}
+

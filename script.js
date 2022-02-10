@@ -16,8 +16,8 @@ closeBtn.onclick = () => {
 const Texts = [
     'HTML', 'CSS', 'JAVASCRIPT',
     'BOOTSTRAP', 'PYTHON','PHOTOSHOP',
-    'MYSQL','WORDPRESS','FIGMA'
-
+    'MYSQL','WORDPRESS','FIGMA',
+    'GIT', 'NODE'
 ];
 
 var tagCloud = TagCloud('.sphere', Texts, {
