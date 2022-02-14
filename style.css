@@ -249,8 +249,9 @@ nav .links {
     position: relative;
     display: flex;
     justify-content: center;
-    top: 280px;
+    top: 240px;
     font-size: 46px;
+    z-index: 2;
 }
 
 .wrapper{
@@ -274,6 +275,7 @@ nav .links {
     height: 90px;
     line-height: 90px;
     overflow: hidden;
+    z-index: 1;
 }
 
 .dynamic-txts li{
