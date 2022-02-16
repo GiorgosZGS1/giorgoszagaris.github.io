@@ -189,7 +189,8 @@ html,body {
 nav {
     top: 0;
     z-index: 5;
-    width: 100%;
+    width: 86%;
+    margin: 0 auto;
     padding: 20px 0;
     background: #000;
 }

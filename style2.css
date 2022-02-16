@@ -10,7 +10,6 @@ html,body {
     height: 100%;
     background-color: #000;
     color: #fff;
-    text-align: center;
 }
 
 /********** NAVIGATION BAR **********/
@@ -77,10 +76,12 @@ nav .links {
     color: white;
     font-weight: 600;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .contact-form p {
     color: #d2d2d2;
+    text-align: center;
 }
 
 
@@ -152,14 +153,105 @@ a:hover {
 
 /********** END OF CONTACT FORM **********/
 
+/************** PROJECTS SECTION **************/
 
-
-.comingsoon h1 {
-    width:500px;
-    margin: 280px auto;
-    font-size: 50px;
-    overflow: hidden;
+section {
+    width: 86%;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
 }
+
+.projects {
+    width: 530px;
+}
+
+section img {
+    width: 530px;
+    height: 440px;
+    border-radius: 20%;
+}
+
+section h1 {
+    margin-top: 20px;
+    color: rgb(141, 141, 141);
+    font-size: 34px;
+}
+
+section p {
+    margin-top: 14px;
+    font-size: 20px;
+}
+
+section span {
+    color: rgb(141, 141, 141);
+    font-weight: bold;
+}
+
+section a {
+    margin-top: 20px;
+    text-align: right;
+    text-decoration: none;
+}
+
+section a p {
+    margin-top: 40px;
+    font-size: 18px;
+    color: rgb(0, 139, 139);
+}
+
+/************** END OF PROJECTS SECTION **************/
+
+/************** FOOTER **************/
+
+footer {
+    height: 300px;
+    width: 86%;
+    margin: 220px auto;
+    border-top: 1px solid rgb(141, 141, 141);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .contact {
+    margin-top: 80px;   
+}
+
+.contact h1 {
+    font-size: 26px;
+}
+
+.contact p {
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgb(141, 141, 141);
+}
+
+
+.social-media {
+    margin-top: 80px; 
+}
+
+.social-media a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    color: rgb(141, 141, 141);
+    font-size: 22px;
+}
+
+.social-media h1 {
+    font-size: 26px;
+}
+
+.social-media span {
+    color: rgb(0, 139, 139);
+    font-size: 38px;
+}
+
+/************** END OF FOOTER **************/
 
 /******** RESPONSIVE DESIGN ********/
 
@@ -210,7 +302,6 @@ a:hover {
 }
 
 
-
 @media (max-width: 420px) {
     .btn {
         display: block;
@@ -252,7 +343,4 @@ a:hover {
         font-size: 14px;
     }
 
-    .comingsoon h1 {
-        font-size: 26px;
-    }
 }
