@@ -186,7 +186,7 @@ section p {
 }
 
 section span {
-    color: rgb(141, 141, 141);
+    color: rgb(0, 139, 139);
     font-weight: bold;
 }
 
@@ -199,7 +199,12 @@ section a {
 section a p {
     margin-top: 40px;
     font-size: 18px;
-    color: rgb(0, 139, 139);
+    color: rgb(141, 141, 141);
+    transition: 0.3s ease;
+}
+
+section a p:hover {
+    color: #fff;
 }
 
 /************** END OF PROJECTS SECTION **************/
