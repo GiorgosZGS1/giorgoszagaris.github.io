@@ -154,6 +154,14 @@ a:hover {
 /********** END OF CONTACT FORM **********/
 
 /************** PROJECTS SECTION **************/
+.title h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+    text-shadow: -1px 0px white, 0 1px white, 1px 0 white, 0 -1px white;
+}
 
 section {
     width: 86%;
@@ -347,5 +355,51 @@ footer .contact {
     .contact-form p {
         font-size: 14px;
     }
+
+    .title h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+    text-shadow: -1px 0px white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+section {
+    width: 86%;
+    margin: 120px auto;
+    display: block;
+    text-align: center;
+}
+
+.projects {
+    width: 230px;
+    height: 840px;
+    margin: 0 auto;
+}
+
+section img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+}
+
+.contact h1 {
+    font-size: 14px;
+}
+
+.contact p {
+    font-size: 14px;
+}
+
+.social-media a {
+    font-size: 14px;
+    display: block;
+    margin-top: 2px;
+}
+
+.social-media h1 {
+    font-size: 16px;
+}
 
 }
