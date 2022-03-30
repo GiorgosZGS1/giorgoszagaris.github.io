@@ -378,8 +378,14 @@ section {
     margin: 0 auto;
 }
 
+.projects1 {
+    width: 230px;
+    height: 1040px;
+    margin: 0 auto;
+}
+
 section img {
-    width: 250px;
+    width: 270px;
     height: 250px;
     border-radius: 20%;
 }
